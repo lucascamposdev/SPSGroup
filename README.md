@@ -28,10 +28,10 @@ Backend
 # clonar repositório
 git clone https://github.com/lucascamposdev/SPSGroup
 
-# executar na raíz dos projetos
-npm run setup
+# executar na raíz do projeto
+docker-compose up --build
 
-# Aplicação poderá ser acessada em:
+# Aplicação frontend poderá ser acessada em:
 http://localhost:5173
 
 # Usuário para login
