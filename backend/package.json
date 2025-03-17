@@ -1,13 +1,12 @@
 {
-  "name": "backend-hmz",
+  "name": "backend-sps",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node dist/app.js",
     "build": "tsc",
-    "dev": "tsnd --respawn --transpile-only src/app.ts",
-    "setup": "npm install && npm run dev"
+    "dev": "tsnd --respawn --transpile-only src/app.ts"
   },
   "keywords": [],
   "author": "",
